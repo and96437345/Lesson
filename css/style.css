@@ -1,1 +1,41 @@
-.block 
+.allParent div {
+    height: 500px;
+    width: 500px;
+    background-color: red;
+}
+.allParent .child1 {
+    background-color: green;
+}
+.allParent .child2 {
+    background-color: blue;
+}
+.allParent .child3 {
+    background-color: gray;
+}
+.allParent .child4 {
+    background-color: yellow;
+}
+.allParent .child11 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(0, 30, 128);
+}
+.allParent .child22 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(108, 146, 104);
+}
+.allParent .child33 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(57, 161, 92);
+}
+.allParent .child44 {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 0, 234);
+}
+
+div.isActive{
+    background-color: darkblue !important;
+}
