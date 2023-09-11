@@ -1,4 +1,4 @@
-.allParent div {
+/* .allParent div {
     height: 500px;
     width: 500px;
     background-color: red;
@@ -10,8 +10,8 @@
     background-color: blue;
 }
 .allParent .child3 {
-    background-color: gray;
-}
+    background-color: gray; */
+/* }
 .allParent .child4 {
     background-color: yellow;
 }
@@ -38,4 +38,8 @@
 
 div.isActive{
     background-color: darkblue !important;
+} */
+
+body {
+    background-color: #333;
 }
