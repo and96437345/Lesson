@@ -193,9 +193,98 @@
 //     console.log("#");
 // }
 
-let x = +prompt("Введите количество")
+// let x = +prompt("Введите количество")
 
-for (let i = 0; i < x; i++) {
-    console.log(x);
-    x--;
+// for (let i = 0; i < x; i++) {
+//     console.log(x);
+//     x--;
+// }
+
+// let array = new Array()
+
+// let ar = [1,2,"test",true]
+// console.log(ar.length)
+// let arr = []
+// arr[3] = 12
+// arr[1] = 14
+// console.log(arr[2])
+
+// let array = [10,15,12,14,15,12,123,16,23,45]
+// let sum = 0
+// for (let i = 0; i < array.length; i++) {
+//     sum = sum + array[i]
+// }
+// console.log(sum)
+
+// let array2 = [
+//     [1,2,3],
+//     [4,5,6],
+// ]
+// console.log(array2[0][0])
+// console.log(array2[0][1])
+// console.log(array2[0][2])
+
+// 1. indexOf поиск слева направо
+// let array = [10,15,12,14,15,12,123,16,23,45]
+// let indexof = array.indexOf(123,[5])
+// console.log(indexof)
+
+// 2. lastIndexOf поиск справа налево
+
+// let array = [12,144,114,21,12,14,14,12,234]
+// let counter = 0
+
+// let indexEl = array.indexOf(12)
+
+// while(indexEl != -1) {
+//     counter++
+//     indexEl = array.indexOf(12, indexEl+1)
+// }
+// console.log(counter)
+
+// let indexEl = array.lastIndexOf(12)
+
+// while(indexEl != -1) {
+//     counter++
+//     if (indexEl == 0) {
+//         break;
+//     }
+//     indexEl = array.lastIndexOf(12, indexEl+1)
+// }
+// console.log(counter)
+
+// 3. sort - сортировка
+
+// array = [124,561,361,512,123,51,51,5123,1,7,10,8]
+// console.log(array.sort())
+
+// function compareValue(a,b) {
+//     if (a>b)
+//         return 1
+//     else if (a<b)
+//         return -1
+//     else
+//         return 0
+// }
+// console.log(array.sort(compareValue))
+
+// string.split(separator)
+// let string = 'Яблоко Апельсин виноград'
+
+// string = string.split(' ')
+
+// // string.join(separator)
+// console.log(string.join('-'))
+
+
+let array = [1,2,3,7,5,6,10,8,9,10]
+function alertArray(arr) {
+    let sum = 0
+    for (let i = 0; i < arr.length; i++) {
+        if (i%2 == 0){
+        sum += arr[i]
+        }
+    }
+    console.log(sum)
 }
+alertArray(array)
