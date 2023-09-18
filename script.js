@@ -200,6 +200,7 @@
 //     x--;
 // }
 
+<<<<<<< HEAD
 // let array = new Array()
 
 // let ar = [1,2,"test",true]
@@ -296,3 +297,101 @@ function sortArray(a,b){
     return -1
 }
 alertArray(array)
+=======
+// let obj = {
+//     name:"Иван",
+//     secondName:"Петров",
+//     new:"Иванов",
+//     adress:{
+//         city: 'Курск',
+//         street: 'Комарова',
+//         number: '9',
+//     }
+// }
+
+// obj.name = "не Иван"
+// obj["name"] = "не Иван Х 2"
+// // console.log(obj)
+
+// for(let value in obj) {
+//     console.log(value)
+//     console.log(obj[value])
+// }
+
+// let x = prompt('First value')
+// let y = prompt('Second value')
+// function sum(xF,yF){
+//     if (xF > yF){
+//         console.log(xF + ' Больше ')
+//     } else {
+//         console.log(yF + ' Больше ')
+//         console.log(`${yF} Больше`)
+//     }
+// }
+// sum(x,y)
+
+// let rect = {
+//     a:20,
+//     b:30,
+// }
+
+// function informRect(){
+//     console.log("Первая точка 0,0")
+//     console.log(`Вторая точка это 0,${rect.a}`)
+//     console.log(`Третья точка это ${rect.b},${rect.a}`)
+//     console.log(`Четвертая точка это ${rect.b},0`)
+// }
+// informRect()
+
+// function perimeter(){
+//     console.log(`Периметр равен ${(rect.a + rect.b)*2}`)
+// }
+// function square(){
+//     console.log(`Площадь равна ${(rect.a * rect.b)}`)
+// }
+// perimeter()
+// square()
+const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    // direction: 'vertical',
+    loop: true,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+
+    breakpoints: {
+        // when window width is >= 320px
+        320: {
+          slidesPerView: 2,
+          spaceBetween: 20
+        },
+        // when window width is >= 480px
+        480: {
+          slidesPerView: 3,
+          spaceBetween: 30
+        },
+        // when window width is >= 640px
+        640: {
+          slidesPerView: 4,
+          spaceBetween: 40
+        }
+      }
+
+  });
+
+
+    
+>>>>>>> d72829ffb3ecfecbe248f1274568ed74ab571ff6

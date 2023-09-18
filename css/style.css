@@ -39,7 +39,14 @@
 div.isActive{
     background-color: darkblue !important;
 } */
-
+/* 
 body {
     background-color: #333;
+} */
+.swiper {
+    width: 500px;
+    height: 500px;
+}
+.swiper-slide {
+    height: 100%;
 }
