@@ -285,6 +285,14 @@ function alertArray(arr) {
         sum += arr[i]
         }
     }
+
     console.log(sum)
+}
+
+function sortArray(a,b){
+    if (a>b)
+    return 1
+    else if (a<b)
+    return -1
 }
 alertArray(array)
