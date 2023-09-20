@@ -200,7 +200,6 @@
 //     x--;
 // }
 
-<<<<<<< HEAD
 // let array = new Array()
 
 // let ar = [1,2,"test",true]
@@ -278,120 +277,83 @@
 // console.log(string.join('-'))
 
 
-let array = [1,2,3,7,5,6,10,8,9,10]
-function alertArray(arr) {
-    let sum = 0
-    for (let i = 0; i < arr.length; i++) {
-        if (i%2 == 0){
-        sum += arr[i]
-        }
-    }
+// let array = [1,2,3,7,5,6,10,8,9,10]
+// function alertArray(arr) {
+//     let sum = 0
+//     for (let i = 0; i < arr.length; i++) {
+//         if (i%2 == 0){
+//         sum += arr[i]
+//         }
+//     }
 
-    console.log(sum)
-}
+//     console.log(sum)
+// }
 
-function sortArray(a,b){
-    if (a>b)
-    return 1
-    else if (a<b)
-    return -1
-}
-alertArray(array)
-=======
-// let obj = {
-//     name:"Иван",
-//     secondName:"Петров",
-//     new:"Иванов",
-//     adress:{
-//         city: 'Курск',
-//         street: 'Комарова',
-//         number: '9',
+// function sortArray(a,b){
+//     if (a>b)
+//     return 1
+//     else if (a<b)
+//     return -1
+// }
+// alertArray(array)
+
+// let str = 'Какая-\tто текстовая \"надпись\"'
+
+// alert(str)
+// console.log(str[5])
+// console.log(str.length)
+// console.log(str.charAt(5))
+// console.log(str.toLowerCase())
+// console.log(str.toUpperCase())
+// console.log(str.indexOf('ая'))
+// console.log(str.lastIndexOf('ая'))
+
+// let subst = str.substring(1,5)
+// let subst = str.substr(0,5)
+// console.log(subst)
+
+// setTimeout( 
+//     function() {
+//         alert('hello')
+//     },
+//     1000
+// )
+
+// function sayHello(){
+//     alert("hello")
+// }
+// setTimeout(sayHello(),1000)
+
+// let timer = setInterval(boom,3000)
+// let counter = 0
+// function boom(){
+//     console.log(counter)
+//     counter++
+//     if (counter > 3){
+//         clearInterval(timer)
+//         console.log("Boom")
+//         return
 //     }
 // }
 
-// obj.name = "не Иван"
-// obj["name"] = "не Иван Х 2"
-// // console.log(obj)
+// console.log(Math.ceil(10.4))
+// console.log(Math.floor(10.4))
+// console.log(Math.round(10.4))
+// console.log(Math.round(10.7))
+// console.log(Math.pow(10, 4))
+// console.log(Math.sqrt(10))
 
-// for(let value in obj) {
-//     console.log(value)
-//     console.log(obj[value])
-// }
+// let x = 10.5555555
+// let y = x.toFixed(2)
+// console.log(y)
 
-// let x = prompt('First value')
-// let y = prompt('Second value')
-// function sum(xF,yF){
-//     if (xF > yF){
-//         console.log(xF + ' Больше ')
-//     } else {
-//         console.log(yF + ' Больше ')
-//         console.log(`${yF} Больше`)
-//     }
-// }
-// sum(x,y)
+// console.log(Math.floor(Math.random()*11))
+// console.log(Math.random())
 
-// let rect = {
-//     a:20,
-//     b:30,
-// }
+let date = new Date()
+console.log(date)
 
-// function informRect(){
-//     console.log("Первая точка 0,0")
-//     console.log(`Вторая точка это 0,${rect.a}`)
-//     console.log(`Третья точка это ${rect.b},${rect.a}`)
-//     console.log(`Четвертая точка это ${rect.b},0`)
-// }
-// informRect()
+console.log(Date.now())
 
-// function perimeter(){
-//     console.log(`Периметр равен ${(rect.a + rect.b)*2}`)
-// }
-// function square(){
-//     console.log(`Площадь равна ${(rect.a * rect.b)}`)
-// }
-// perimeter()
-// square()
-const swiper = new Swiper('.swiper', {
-    // Optional parameters
-    // direction: 'vertical',
-    loop: true,
-  
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-    },
-  
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
-
-    breakpoints: {
-        // when window width is >= 320px
-        320: {
-          slidesPerView: 2,
-          spaceBetween: 20
-        },
-        // when window width is >= 480px
-        480: {
-          slidesPerView: 3,
-          spaceBetween: 30
-        },
-        // when window width is >= 640px
-        640: {
-          slidesPerView: 4,
-          spaceBetween: 40
-        }
-      }
-
-  });
-
-
-    
->>>>>>> d72829ffb3ecfecbe248f1274568ed74ab571ff6
+let date1 = new Date("2020-10-20")
+console.log(date1)
