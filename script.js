@@ -350,10 +350,114 @@
 // console.log(Math.floor(Math.random()*11))
 // console.log(Math.random())
 
-let date = new Date()
-console.log(date)
+// let date = new Date()
+// console.log(date)
 
-console.log(Date.now())
+// console.log(Date.now())
 
-let date1 = new Date("2020-10-20")
-console.log(date1)
+// let date1 = new Date("2020,10,20")
+// console.log(date1)
+
+// let name = 'John'
+// function areYouPlatingBango(name) {
+//     let firstchar = name.charAt(0);
+//     if (firstchar === 'R' || firstchar === 'r') {
+//         console.log(`${name} plays bango`);
+//     } else {
+//         console.log(`${name} does not playing bango`)
+//     }
+// }
+
+// areYouPlatingBango(name)
+// class User {
+//     #id;
+//     constructor(firstName, secondName) {
+//         // свойства
+//         this.firstName = firstName;
+//         this.secondName = secondName;    
+//     }
+//     // метод
+//     sayHello() {
+//         console.log(`Привет, меня зовут ${this.firstName} ${this.secondName}`)
+//     }
+// }
+
+// const person1 = new User('Андрей', 'Башкатов');
+// person1.sayHello()
+
+// class Student extends User {
+//     constructor(firstName, secondName, degree){
+//         super(firstName, secondName);
+//         this.degree = degree;
+//     }
+//     sayHello() {
+//     console.log(`Привет, меня зовут ${this.firstName}  
+//     ${this.second.Name} У меня ${this.degree} По IT`)
+//     }
+// }
+
+// const student1 = new Student('Алексей', 'Иванов', 5)
+// student1.sayHello();
+
+// class Button {
+//     constructor(width, height, text) {
+//     this.width = width;
+//     this.height = height;
+//     this.text = text;
+//     }
+//     showBtn() {
+//         document.write(`<button style="height:${this.height}; width:${this.width}px;">${this.text}</button>`)
+//     }
+// }
+// const Btn = new Button ('200px',200,'Клик')
+// Btn.showBtn()
+
+// class BootstrapButton extends Button {
+//     constructor(width, height, text, color) {
+//         super(width, height, text);
+//         this.color = color;
+//     }
+//     showBtn() {
+//         document.write(`<button style="height:${this.height}; width:${this.width}px; background-color:${this.color}">${this.text}</button>`)
+//     }
+// }
+// const BsB = new BootstrapButton('200px',200,'Клик','red')
+// BsB.showBtn()
+
+// let value = Math.floor(Math.random() * (100 - 1 + 1) +1)
+// let num
+// console.log(value)
+// do {
+//     num = prompt('Угадайте число от 1 до 100')
+// if (value > num) {
+//     alert('Больше')
+// } else if {
+//     (value < num) {
+//         alert('Меньше')
+//     }
+
+// }
+// }
+
+let value = Math.floor(Math.random() * (100 - 1 + 1) +1)
+
+
+function game(){
+    let answer = +prompt('Угадайте число от 1 до 100');
+    if (answer > value) {
+        alert('Меньше');
+        game();
+        return;
+    } else if (answer < value) {
+        alert('Больше');
+        game();
+        return;
+    } else if (answer == value) {
+        alert('Угадал')
+    }
+}
+
+game()
+
+// проверки на больше 100 меньше 0
+// еще раз запросить, чтобы сыграли
